@@ -8,7 +8,7 @@ ENV UNREAL_VERSION="4.0.3" \
 RUN apt-get update \
  && apt-get upgrade -y \
  && apt-get install -y --no-install-recommends \
-    ca-certificates wget build-essential curl cmake file expect libssl-dev exim4 \
+    ca-certificates wget build-essential curl cmake file expect libssl-dev exim4 gpg\
     supervisor vim \
  && rm -rf /var/lib/apt/lists/* \
  && mkdir -p /var/log/supervisor \
