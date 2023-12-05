@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:latest
 ENV UNREAL_VERSION="4.0.3" \
     ANOPE_VERSION="2.0.3" \
     TERM="vt100" \
