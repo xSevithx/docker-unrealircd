@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-ENV UNREAL_VERSION="4.0.3" \
+ENV UNREAL_VERSION="6.1.2.3" \
     ANOPE_VERSION="2.0.3" \
     TERM="vt100" \
     LC_ALL=C \
